@@ -87,7 +87,7 @@
     8. int8_t Input(int8_t val); 
          Default  => 1
          PT2313 maks Input => 3       (3 Stereo)
-         PT2313 maks Input => 3       (3 Stereo)
+         PT2314 maks Input => 4       (4 Stereo)
          
     9. int8_t Loudness(int8_t val);          
           Default => 3 (0dB)
