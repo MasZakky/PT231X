@@ -6,9 +6,10 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-PT231X KEYWORD2
-PT2313 KEYWORD2
-PT2314 KEYWORD2
+PT231X KEYWORD1
+PT2310 KEYWORD1
+PT2313 KEYWORD1
+PT2314 KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
