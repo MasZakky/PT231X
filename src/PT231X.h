@@ -105,7 +105,7 @@ class PT2313 :public SendTransI2C{
     int8_t Bass(int8_t val = 7);
     int8_t Treble(int8_t val = 7);
 
-    int8_t UseValue(int8_t val);
+    int8_t UseValue(int8_t val = Use_POSITIVE);
     
     int8_t Balance(int8_t val = 0);           //Value
     int8_t Balance(int8_t val,int8_t val2);   //Value,channel
