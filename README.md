@@ -25,8 +25,36 @@
          Value   => Use_POSITIVE or Use_NEGATIVE
          
          
+<h3> Main (only PT2313 & PT2314)</h3>
+<h4><a href="https://github.com/MasZakky/SendTrans" target="_blank"> Command </a>: </h4>
+      
+    1. int8_t InstalWire(TwoWire *val);
+         Default => NULL
+         Syntax:
+         - InstalWire(&Wire);
+         - InstalWire(&Wire1);
+         - InstalWire(&Wire2);
+         
+    // additional
+    2. int8_t setMultiPlexer(int8_t val,int8_t val2);
+                       Value     ,IC MuliPlexer
+         Default => Not_UseSwitch & Use_TCA9548A 
+         Value   => Not_UseSwitch or Yes_UseSwitch
+         IC      => Use_TCA9548A
+    
+    3. int8_t setAddressMultiPlexer(byte Address,byte val1,byte val2,byte val3,byte val4);
+                                 Value       ,A0       ,A1       ,A2       ,A3 or 0
+         Default     => _AddressTCA9548A & A0 = 0 & A1 = 0 & A2 = 0 & A3 = 0                           
+         Value       => Address IC MuliPlexer
+         pinAddr     => A0,A1,A2,A3/0
+    
+    4. int8_t setChannel(int8_t val);
+                      Channel
+         Default => 0
+         Channel => 0 ~ 7
+         
 <h3>PT2313 & PT2314</h3>
-<h4>COmmand</h4>
+<h4>Command</h4>
     
     1. int8_t begin();
     
