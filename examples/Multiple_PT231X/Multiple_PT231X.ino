@@ -82,14 +82,6 @@ void loop() {
    delay(10);
   } 
   for(int b = 7; b >= -8; b--){
-   uPA[a].Middle(b);
-   delay(10);
-  } 
-  for(int b = - 7; b <= 8; b++){
-   uPA[a].Middle(b);
-   delay(10);
-  } 
-  for(int b = 7; b >= -8; b--){
    uPA[a].Bass(b);
    delay(10);
   } 
