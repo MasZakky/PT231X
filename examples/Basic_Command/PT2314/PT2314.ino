@@ -7,7 +7,7 @@ void setup(){
   uPA.begin();
   uPA.InstalWire(&Wire);
   
-  uPa.Volume(0);
+  uPA.Volume(0);
   //   UserValue == Use_POSITIVE => Volume 0 ~ 63  => 0dB ~ -78.75dB (1.25dB Step)
   //   UserValue == Use_NEGATIVE => Volume -63 ~ 0 => -78.75dB ~ 0dB (1.25dB Step)
      
