@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map For PT231X
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+PT231X KEYWORD2
+PT2313 KEYWORD2
+PT2314 KEYWORD2
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin KEYWORD2
+Volume KEYWORD2
+Bass KEYWORD2
+Treble KEYWORD2
+UseValue KEYWORD2
+Balance KEYWORD2
+Input KEYWORD2
+Loudness KEYWORD2
+ModeLoudness KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
