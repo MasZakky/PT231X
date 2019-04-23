@@ -24,7 +24,7 @@ int16_t PT2310::Constrain(int16_t val,int16_t val2,int16_t val3){
   }
 }
 void PT2310::SendTrans(){
-  for(int8_t a = 0; a <=15; a++){
+  for(int8_t a = 0; a <=13; a++){
     digitalWrite(_pin[0],HIGH);
     digitalWrite(_pin[0],LOW);
     switch(a){
