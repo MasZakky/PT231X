@@ -8,7 +8,7 @@ int stbPin = 4;
 int csVal = HIGH;
 
 void setup() {
-  uPA.begin(clkPin,dataPin,stbPin,csVal);
+  uPA.begin(clockPin,dataPin,stbPin,csVal);
 
   for(int a = 0; a <= 40; a++){
     uPA.Volume(a);
